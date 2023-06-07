@@ -22,7 +22,7 @@ app.post('/profile', (req, res) => {
 
 //http://localhost:3000/admin
 app.get('/admin', (req, res) => {
-  res.send('Admin Homepage')
+  res.send('<h1>Admin Homepage</h1>')
 })
 
 //http://localhost:3000/user/100
